@@ -3,7 +3,7 @@
 These are APIs that we need to provide:
 
 Please be informed that server port changed to 8088
-- localhost:8080
+- localhost:8088
 
 Also make sure that MySql is configured and database name is inukacoaching.
 - jdbc:mysql://localhost:3306/inukacoaching
