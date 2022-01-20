@@ -1,10 +1,9 @@
 package com.inukacoaching.payload.response;
 
 import java.util.List;
-import java.util.Set;
 
 public class JwtResponse {
-    private String token;
+    private String accessToken;
     private Long id;
     private String username;
     private String email;
@@ -13,20 +12,20 @@ public class JwtResponse {
     public JwtResponse() {
     }
 
-    public JwtResponse(String token, Long id, String username, String email, List<String> roles) {
-        this.token = token;
+    public JwtResponse(String accessToken, Long id, String username, String email, List<String> roles) {
+        this.accessToken = accessToken;
         this.id = id;
         this.username = username;
         this.email = email;
         this.roles = roles;
     }
 
-    public String getToken() {
-        return token;
+    public String getAccessToken() {
+        return accessToken;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    public void setAccessToken(String accessToken) {
+        this.accessToken = accessToken;
     }
 
     public Long getId() {
